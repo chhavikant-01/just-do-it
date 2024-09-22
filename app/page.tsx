@@ -4,6 +4,6 @@ import Board from '@/components/Board'
 
 export default function Home (){
   return (
-    <Board />
+    <Board habitName='trek' month={8} year={2024} />
   )
 }
